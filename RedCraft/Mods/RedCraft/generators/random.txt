@@ -1,0 +1,8 @@
+store RedCraft String block null
+store RedCraft int rando getHeight
+if int var/RedCraft/y/int == var/RedCraft/rando/int {
+store RedCraft String block dirt
+}
+if int var/RedCraft/y/int < var/RedCraft/rando/int {
+store RedCraft String block cobblestone
+}

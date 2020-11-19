@@ -1,0 +1,9 @@
+store RedCraft String block null
+if int var/RedCraft/y/int == 0 {
+if int var/RedCraft/x/int == 0 {
+if int var/RedCraft/z/int == 0 {
+store RedCraft String block dirt
+}
+}
+}
+end RedCraft FlatWorld.txt

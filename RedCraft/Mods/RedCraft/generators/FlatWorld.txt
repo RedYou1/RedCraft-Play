@@ -1,0 +1,7 @@
+if int var/RedCraft/y/int == 0 {
+store RedCraft String block cobblestone
+}
+if int var/RedCraft/y/int != 0 {
+store RedCraft String block null
+}
+end RedCraft FlatWorld.txt

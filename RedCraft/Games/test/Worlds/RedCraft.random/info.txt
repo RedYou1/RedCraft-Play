@@ -1,0 +1,2 @@
+RedCraft.random
+random.txt Generator
