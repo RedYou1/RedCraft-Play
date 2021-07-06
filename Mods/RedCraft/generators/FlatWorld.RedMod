@@ -1,0 +1,11 @@
+Generator {
+If [LessThan [GetStore [y]] [Value [0]]]
+Function {
+Return [Value [cobblestone]]
+};
+If [Equal [GetStore [y]] [Value [0]]]
+Function {
+Return [Value [dirt]]
+};
+Return [Value [Air]]
+};
